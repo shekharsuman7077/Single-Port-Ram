@@ -1,0 +1,16 @@
+`include "uvm_pkg.sv"
+import uvm_pkg::*;
+
+`include "mem_common.sv"
+`include "mem_intf.sv"
+`include "mem_tx.sv"
+`include "base_seq.sv"
+`include "mem_sqr.sv"
+`include "mem_cov.sv"
+`include "mem_driver.sv"
+`include "mem_mon.sv"
+`include "mem_sbd.sv"
+`include "mem_agent.sv"
+`include "mem_env.sv"
+`include "base_test.sv"
+`include "top.sv"
